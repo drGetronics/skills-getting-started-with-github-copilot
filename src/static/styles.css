@@ -157,17 +157,22 @@ footer {
   margin-bottom: 6px;
 }
 
+
 .participants-list {
-  list-style-type: disc;
-  margin-left: 20px;
+  list-style-type: none;
+  margin-left: 0;
   margin-bottom: 0;
   padding-left: 0;
 }
+
 
 .participant-item {
   color: #333;
   margin-bottom: 2px;
   font-size: 15px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .no-participants {
